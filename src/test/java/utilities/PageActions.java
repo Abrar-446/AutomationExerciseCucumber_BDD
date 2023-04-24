@@ -9,6 +9,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -16,12 +17,34 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import stepdefinations.BaseClass;
 
 public class PageActions extends BaseClass {
+	
+	//Method is to movetoelement
+	public void MoveHover(WebElement ele) {
+		
+		Actions act= new Actions(driver);
+		
+		act.moveToElement(ele).perform();
+			
+	}
+	
+	//Mehtod is to Wait using Explicit 
+	
+	public void explicitWait(int num,WebElement ele) {
+		
+		WebDriverWait wait =new WebDriverWait(driver,Duration.ofSeconds(num));
+		wait.until(ExpectedConditions.elementToBeClickable(ele));
+		
+	}
 
 	// Method is to click on the element
 
@@ -192,6 +215,20 @@ public class PageActions extends BaseClass {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
 		
+		
+	}
+	
+	public void JSClick(WebElement ele) {
+		JavascriptExecutor j = (JavascriptExecutor) driver;
+		j.executeScript("arguments[0].click();", ele);
+		
+	}
+	
+	public String JSGetText() {
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		 String script = "return   document.getElementByXPath('//span[@id='empty_cart']//b').getText();";
+		 String Text = jse.executeScript(script).toString();
+		 return Text;
 		
 	}
 	

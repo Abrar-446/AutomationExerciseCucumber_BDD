@@ -30,6 +30,20 @@ public class ProductDetailsPage extends BasePage {
 	@FindBy(xpath="//div[@class='product-information']/span/span")
 	private WebElement ProductInfo_PriceTxt;
 	
+	@FindBy(xpath="//input[@id='quantity']")
+	private WebElement QuantityTxt;
+	
+	@FindBy(xpath="//button[@class='btn btn-default cart']")
+	private WebElement AddtoCartBtn;
+	
+	@FindBy(xpath = "//div[@class='modal-content']//div[2]//a[@href='/view_cart']")
+	private WebElement ViewCartBtn;
+	
+	@FindBy(xpath="//table[@id='cart_info_table']//td[@class='cart_description']//a[contains(text(),'Blue Top')]/ancestor::td/following-sibling::td[2]/button")
+	private WebElement ProductQuantity;
+	
+	
+	
 	
 	public String productName() {
 		return pageActions.GetText(ProductInfo_ProductName);
@@ -66,6 +80,23 @@ public class ProductDetailsPage extends BasePage {
 		}
 		
 	}
+	
+	public void Quantity(String str) {
+		 pageActions.enterText(QuantityTxt, str);
+	}
+	
+	public void ClickAddToCart() {
+		pageActions.click(AddtoCartBtn);
+	}
+	
+	public void ClickViewCart() {
+		pageActions.click(ViewCartBtn);
+	}
+	
+	public String ProductQuantity() {
+		return pageActions.GetText(ProductQuantity);
+	}
+	
 	
 	
 }

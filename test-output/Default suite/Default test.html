@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Apr 20 16:15:57 IST 2023</td>
+<td>Started on:</td><td>Mon Apr 24 16:30:23 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>2 seconds (2583 ms)</td>
+<tr><td>Total time:</td><td>2 seconds (2588 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,27 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunner.Run.runScenario()'><b>runScenario</b><br>Test class: testRunner.Run<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Subscription in Homepage Scenario", "Subscription in Homepage feature"</td>
-<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Scroll down to footer&apos; and 3 other step(s) are undefined.
+<td title='testRunner.Run.runScenario()'><b>runScenario</b><br>Test class: testRunner.Run<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Remove Products From Cart scenario", "Remove Products From Cart Feature"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Click X button corresponding to particular product&apos; and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Then(&quot;Scroll down to footer&quot;)
-public void scroll_down_to_footer() {
+@Then(&quot;Click X button corresponding to particular product&quot;)
+public void click_x_button_corresponding_to_particular_product() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@Then(&quot;Verify text {string}&quot;)
-public void verify_text(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Enter email address in input and click arrow button&quot;)
-public void enter_email_address_in_input_and_click_arrow_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Verify success subscribe message {string} is visible&quot;)
-public void verify_success_subscribe_message_is_visible(String string) {
+@Then(&quot;Verify that product is removed from the cart&quot;)
+public void verify_that_product_is_removed_from_the_cart() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
@@ -136,27 +126,17 @@ public void verify_success_subscribe_message_is_visible(String string) {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace8136897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace8136897'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Scroll down to footer&apos; and 3 other step(s) are undefined.
+</pre></div><a href='#' onClick='toggleBox("stack-trace1545666472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1545666472'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;Click X button corresponding to particular product&apos; and 1 other step(s) are undefined.
 You can implement these steps using the snippet(s) below:
 
-@Then(&quot;Scroll down to footer&quot;)
-public void scroll_down_to_footer() {
+@Then(&quot;Click X button corresponding to particular product&quot;)
+public void click_x_button_corresponding_to_particular_product() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }
-@Then(&quot;Verify text {string}&quot;)
-public void verify_text(String string) {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Enter email address in input and click arrow button&quot;)
-public void enter_email_address_in_input_and_click_arrow_button() {
-    // Write code here that turns the phrase above into concrete actions
-    throw new io.cucumber.java.PendingException();
-}
-@Then(&quot;Verify success subscribe message {string} is visible&quot;)
-public void verify_success_subscribe_message_is_visible(String string) {
+@Then(&quot;Verify that product is removed from the cart&quot;)
+public void verify_that_product_is_removed_from_the_cart() {
     // Write code here that turns the phrase above into concrete actions
     throw new io.cucumber.java.PendingException();
 }

@@ -6,13 +6,17 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 
+import pageObjects.CheckOutpage;
 import pageObjects.ContactUspage;
 import pageObjects.CreateAccountPage;
 import pageObjects.Homepage;
 import pageObjects.Loginpage;
+import pageObjects.PaymentDonepage;
+import pageObjects.Paymentpage;
 import pageObjects.ProductDetailsPage;
 import pageObjects.Productspage;
 import pageObjects.TestCasespage;
+import pageObjects.ViewCartpage;
 import utilities.PageActions;
 import utilities.ReadConfig;
 
@@ -23,6 +27,7 @@ public class BaseClass {
 
 	public static WebDriver driver;
 	public PageActions pageActions;
+	
 	public Loginpage loginpage;
 	public Homepage homepage;
 	public CreateAccountPage CreateAccpage;
@@ -30,6 +35,10 @@ public class BaseClass {
 	public TestCasespage testcasespage;
 	public Productspage productspage;
 	public ProductDetailsPage productDetailspage;
+	public ViewCartpage Viewcartpage;
+	public Paymentpage Paymentpage;
+	public PaymentDonepage paymentDonePage;
+	public CheckOutpage Checkoutpage;
 	
 	// public static Logger log;
 	public static ReadConfig readConfig;

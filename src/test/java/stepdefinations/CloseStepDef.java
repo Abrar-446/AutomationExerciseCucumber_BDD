@@ -1,9 +1,10 @@
 package stepdefinations;
 
-import io.cucumber.java.en.Then;
+import io.cucumber.java.en.And;
+
 
 public class CloseStepDef extends BaseClass {
-	@Then("close browser")
+	@And("close browser")
 	public void close_browser() {
 		driver.quit();
 		//driver.close();

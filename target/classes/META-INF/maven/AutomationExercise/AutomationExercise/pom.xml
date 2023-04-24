@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>AutomationExercise</groupId>
-  <artifactId>AutomationExercise</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+	<groupId>AutomationExercise</groupId>
+	<artifactId>AutomationExercise</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
 
-  <name>AutomationExercise</name>
-  <!-- FIXME change it to the project's website -->
-  <url>https://automationexercise.com/</url>
+	<name>AutomationExercise</name>
+	<!-- FIXME change it to the project's website -->
+	<url>https://automationexercise.com/</url>
 
-  <properties>
+	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<cucumber.version>7.3.4</cucumber.version>
 	</properties>
 
- <dependencies>
+	<dependencies>
 		<!-- this needs to be removed for testng execution
 		<dependency>
 			<groupId>junit</groupId>
@@ -126,7 +125,13 @@
 			<scope>system</scope>
 			<systemPath>C:\Program Files\Java\jdk1.8.0_202\lib\tools.jar</systemPath>
 		</dependency>
-		
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/io.cucumber/datatable-dependencies -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
@@ -199,7 +204,7 @@
 		<pluginManagement>
 			<!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
 			<plugins>
-			
+
 				<!--  This plugin is required to run the Run.java file
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
