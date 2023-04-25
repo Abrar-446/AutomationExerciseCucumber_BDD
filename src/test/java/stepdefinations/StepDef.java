@@ -174,6 +174,7 @@ public class StepDef extends BaseClass {
 			String ExpTitle = "Stands Extension";
 
 			if (ActTitle.equals(ExpTitle)) {
+				//driver.close();
 				driver.switchTo().window(parent);
 			}
 
@@ -312,7 +313,7 @@ public class StepDef extends BaseClass {
 
 		String loggedin = CreateAccpage.loggedInUser();
 
-		if (loggedin.equals("Test1127")) {
+		if (loggedin.equals("Test1128")) {
 			Assert.assertTrue(true);
 			log.info("Logged in username is visible");
 		} else {
@@ -360,7 +361,7 @@ public class StepDef extends BaseClass {
 
 	@Then("Enter correct email address and password")
 	public void enter_correct_email_address_and_password() {
-		loginpage.enterLoginEmail("Test1127@test.com");
+		loginpage.enterLoginEmail("Test1128@test.com");
 		loginpage.enterLoginPassword("test@123");
 
 	}
@@ -650,6 +651,8 @@ public class StepDef extends BaseClass {
 			Assert.assertTrue(false);
 			log.warn("All the products related to search are  NOT visible");
 		}
+		
+		driver.navigate().back();
 
 	}
 
@@ -930,7 +933,9 @@ public class StepDef extends BaseClass {
 		} else {
 			Assert.assertTrue(false);
 			log.warn("Sorry! All orders have NOT been deleted");
+		}	
 		}
+	
 
 		/*
 		 * if(Viewcartpage.MSGDisplayed()==true) { Assert.assertTrue(true);
@@ -939,6 +944,175 @@ public class StepDef extends BaseClass {
 		 * log.warn("Sorry! All orders have NOT been deleted"); }
 		 */
 
+
+	//**********TestCase-18: View Category Products Test Case *********  	
+
+@Then("Verify that categories are visible on left side bar")
+public void verify_that_categories_are_visible_on_left_side_bar() {
+    String ActCat=homepage.categoryLabel();
+    String ExpCat="CATEGORY";
+    if (ActCat.equals(ExpCat)) {
+		Assert.assertTrue(true);
+		log.info("categories are visible on left side bar");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! categories are NOT visible on left side bar");
 	}
+    
+    
+}
+@Then("Click on Women category")
+public void click_on_women_category() {
+	
+	homepage.Selectcategory("WOMEN");
+    
+    
+}
+@Then("Click on any category link under {string} category, for example: Dress")
+public void click_on_any_category_link_under_category_for_example_dress(String string) {
+	
+	homepage.SelectSubcategory("TOPS");
+    
+    
+}
+@Then("Verify that category page is displayed and confirm text {string}")
+public void verify_that_category_page_is_displayed_and_confirm_text(String txt) {
+    
+    if(homepage.AllBrandsLabel().equals(txt)&&driver.getCurrentUrl().contains("category_products")) {
+    	Assert.assertTrue(true);
+		log.info("category page is displayed and confirm text is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! category page is NOT displayed and confirm text is NOT Visible");
+	}
+    }
+
+@Then("On left side bar, click on any sub-category link of Men category")
+public void on_left_side_bar_click_on_any_sub_category_link_of_men_category() {
+	homepage.Selectcategory("MEN");
+    
+}
+@Then("Verify that user is navigated to that category page")
+public void verify_that_user_is_navigated_to_that_category_page() {
+	if(driver.getCurrentUrl().contains("category_products")) {
+    	Assert.assertTrue(true);
+		log.info("user is navigated to that category page");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! user is NOT navigated to that category page");
+	}
+    }
+
+//**********TestCase-19: View & Cart Brand Products Test Case *********  
+
+@Then("Verify that Brands are visible on left side bar")
+public void verify_that_brands_are_visible_on_left_side_bar() {
+    String ActTxt=homepage.BrandLabel();
+    String ExpTxt="BRANDS";
+    if(ActTxt.equals(ExpTxt)){
+    Assert.assertTrue(true);
+	log.info("Brands are visible on left side bar");
+} else {
+	Assert.assertTrue(false);
+	log.warn("Sorry! Brands are NOT visible on left side bar");
+}
+}
+
+
+@Then("Click on any brand name")
+public void click_on_any_brand_name() {
+    //homepage.SelectBrand("Biba");
+	homepage.ClickBIBA();
+    
+}
+@Then("Verify that user is navigated to brand page and brand products are displayed")
+public void verify_that_user_is_navigated_to_brand_page_and_brand_products_are_displayed() {
+  String ActTxt=homepage.AllBrandsLabel();
+  String ExpTxt="Brand - Biba Products";
+  
+    if(ActTxt.equalsIgnoreCase(ExpTxt)) {
+    	Assert.assertTrue(true);
+		log.info("user is navigated to brand page and brand products are displayed");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! user is  NOT navigated to brand page and brand products are  NOT displayed");
+	}
+    }
+    
+@Then("On left side bar, click on any other brand link")
+public void on_left_side_bar_click_on_any_other_brand_link() {
+    //homepage.SelectBrand("Polo");
+	homepage.ClickPOLO();
+}
+@Then("Verify that user is navigated to that brand page and can see products")
+public void verify_that_user_is_navigated_to_that_brand_page_and_can_see_products() {
+	String ActTxt=homepage.AllBrandsLabel();
+	  String ExpTxt="Brand - Polo Products";
+	  
+	    if(ActTxt.equalsIgnoreCase(ExpTxt)) {
+	    	Assert.assertTrue(true);
+			log.info("user is navigated to brand page and brand products are displayed");
+		} else {
+			Assert.assertTrue(false);
+			log.warn("Sorry! user is  NOTnavigated to brand page and brand products are  NOT displayed");
+		}     
+}
+
+//**********TestCase-20: Search Products and Verify Cart After Login Test Case *********  
+
+/*
+ * @Then("Verify the products related to search are visible") public void
+ * verify_the_products_related_to_search_are_visible() { List<String>
+ * prod=productspage.GetSearchedProducts();
+ * 
+ * String ActProd=prod.get(0);
+ * 
+ * if(ActProd.contains("Tshirt")) {
+ * 
+ * Assert.assertTrue(true); log.info("products related to search are visible");
+ * } else { Assert.assertTrue(false);
+ * log.warn("Sorry! products related to search are  NOT visible"); } }
+ */
+    
+@Then("Add those products to cart")
+public void add_those_products_to_cart() {
+    //driver.navigate().back();
+	productspage.MouseHover_AddToCart_ContinueBtn();
+	//productspage.ScrollUP();
+	productspage.ClickArrow();
+	homepage.cart();
+   
+}
+@Then("verify that products are visible in cart")
+public void verify_that_products_are_visible_in_cart() {
+	List<String>  products=Viewcartpage.CartProducts();
+	
+	if(products.size()==6) {
+		Assert.assertTrue(true);
+		log.info("products are visible in cart");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! products are NOT visible in cart");
+	}   
+			
+   
+}
+@Then("Verify that those products are visible in cart after login as well")
+public void verify_that_those_products_are_visible_in_cart_after_login_as_well() {
+List<String>  products=Viewcartpage.CartProducts();
+	
+	if(products.size()==6) {
+		Assert.assertTrue(true);
+		log.info("products are visible in cart after Login");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! products are NOT visible in cart after Login");
+	}   
+		
+   
+}
+
 
 }
+
+

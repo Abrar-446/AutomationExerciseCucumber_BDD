@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.mortbay.log.Log;
@@ -43,6 +44,10 @@ public class Productspage extends BasePage {
 	// First Product mouseHover
 	@FindBy(xpath = "(//div[@class='product-image-wrapper']//div[@class='single-products'])[1]")
 	private WebElement MouseHoverFirstProduct;
+	
+	//AllProductsMouseHover
+	@FindBy(xpath="(//div[@class='product-image-wrapper']//div[@class='single-products'])")
+	private List<WebElement> AllProductsMouseHover;
 
 	@FindBy(xpath ="//button[normalize-space()='Continue Shopping']")
 	private WebElement ContinueShoppingBtn;
@@ -58,9 +63,40 @@ public class Productspage extends BasePage {
 	@FindBy(xpath = "//div[@class='modal-content']//div[2]//a[@href='/view_cart']")
 	private WebElement ViewCartBtn;
 	
+	//SearchedProducts
+	@FindBy(xpath="//div[@class='features_items']//div[@class='col-sm-4']//div[@class='overlay-content']//p")
+	private List<WebElement> SearchedProductList;
+	
+	//AllProductsAddToCart
+	@FindBy(xpath="//div[@class='product-overlay']//p[contains(text(),'')]/parent::div//a[@class='btn btn-default add-to-cart']")
+	private List<WebElement> AllProductsAddToCart;
+	
+	@FindBy(xpath="//i[@class='fa fa-angle-up']")
+	private WebElement ArrowBtn;
+	
+	@FindBy(xpath="//a[contains(text(),'Cart')]")
+	private WebElement cartLink;
+	
+	public void cart() {
+		pageActions.click(cartLink);
+	}
+	
+	
+	public List<String> GetSearchedProducts() {
+		
+		List<String> li=new ArrayList<String>();
+		
+		for(WebElement p:SearchedProductList) {
+			String productText=p.getText();
+			li.add(productText);
+		}
+		return li;
+	}
+	
 	public String AllproductsMsg() {
 		return pageActions.GetText(AllProductsLabeltxt);
 	}
+	
 
 	public void AllProducts() {
 
@@ -156,6 +192,41 @@ public class Productspage extends BasePage {
 		
 		pageActions.explicitWait(5, ContinueShoppingBtn);
 		
+	}
+	
+	
+	/*
+	 * public void mouseHover() {
+	 * 
+	 * for(WebElement move:AllProductsMouseHover) { pageActions.MoveHover(move);
+	 * List<WebElement> li=AllProductsAddToCart; } }
+	 */
+	
+	public void MouseHover_AddToCart_ContinueBtn() {
+		
+		for(int i=0;i<AllProductsMouseHover.size();i++) {
+			pageActions.MoveHover(AllProductsMouseHover.get(i));
+			for(int j=i;j<AllProductsAddToCart.size();) {
+				pageActions.explicitWait(4, AllProductsAddToCart.get(j));
+				pageActions.click(AllProductsAddToCart.get(j));
+				pageActions.waitForSeconds(2);
+				pageActions.click(ContinueShoppingBtn);
+				break;
+			}
+		}
+	}
+	
+	/*
+	 * public void AddToCartButton() { for(WebElement al:AllProductsAddToCart) {
+	 * pageActions.click(al); } }
+	 */
+	
+	public void ClickArrow() {
+		pageActions.click(ArrowBtn);
+	}
+	
+	public void ScrollUP() {
+		pageActions.ScrollUp();
 	}
 
 }

@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.openqa.selenium.WebDriver;
@@ -54,6 +55,19 @@ public class ViewCartpage extends BasePage {
 	//cart Empty msg
 	@FindBy(xpath="(//a[@href='/products'])[2]")
 	private WebElement CartEmptyMsgTxt;
+	
+	//ViewProductsAdded in cart
+	@FindBy(xpath="//div[@id='cart_info']//tbody/tr")
+	private List<WebElement> CartProductsList;
+	
+	public List<String> CartProducts() {
+		List<String> al= new ArrayList<String>();
+		for(WebElement cp:CartProductsList) {
+			
+			al.add(cp.getText());	
+		}
+		return al;
+	}
 	
 	
 	//First Product price

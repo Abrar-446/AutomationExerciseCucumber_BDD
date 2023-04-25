@@ -1,239 +1,229 @@
-2023-04-24 09:23:39.341 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:98)] -  Browser Setup executed
-2023-04-24 09:23:39.399 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:135)] - Chrome browser Launched
-2023-04-24 09:24:07.382 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:141)] - url opened
-2023-04-24 09:24:07.763 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:165)] - Homepage page is visible successfully
-2023-04-24 09:24:25.385 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:568)] - User is landed to product detail page successfully
-2023-04-24 09:24:29.512 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:750)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 09:24:29.788 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 09:34:33.923 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:98)] -  Browser Setup executed
-2023-04-24 09:34:33.959 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:135)] - Chrome browser Launched
-2023-04-24 09:35:02.232 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:141)] - url opened
-2023-04-24 09:35:02.622 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:165)] - Homepage page is visible successfully
-2023-04-24 09:35:28.542 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:568)] - User is landed to product detail page successfully
-2023-04-24 09:35:32.576 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:750)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 09:35:32.853 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 09:46:06.277 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:98)] -  Browser Setup executed
-2023-04-24 09:46:06.315 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:135)] - Chrome browser Launched
-2023-04-24 09:46:14.463 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:141)] - url opened
-2023-04-24 09:46:14.936 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:165)] - Homepage page is visible successfully
-2023-04-24 09:46:31.834 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:568)] - User is landed to product detail page successfully
-2023-04-24 09:46:35.965 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:750)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 09:46:36.274 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 09:47:35.705 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:98)] -  Browser Setup executed
-2023-04-24 09:47:35.736 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:135)] - Chrome browser Launched
-2023-04-24 09:47:44.728 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:141)] - url opened
-2023-04-24 09:47:45.206 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:165)] - Homepage page is visible successfully
-2023-04-24 09:48:02.581 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:568)] - User is landed to product detail page successfully
-2023-04-24 09:48:06.779 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:750)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 09:48:06.843 INFO [main] [stepdefinations.StepDef.verify_the_total_price(StepDef.java:763)] - Exact Total price:2000
-2023-04-24 09:48:07.035 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 10:49:33.937 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:98)] -  Browser Setup executed
-2023-04-24 10:49:34.028 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:135)] - Chrome browser Launched
-2023-04-24 10:49:46.759 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:141)] - url opened
-2023-04-24 10:49:47.644 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:165)] - Homepage page is visible successfully
-2023-04-24 10:50:12.790 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:568)] - User is landed to product detail page successfully
-2023-04-24 10:50:17.449 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:750)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 10:50:17.580 INFO [main] [stepdefinations.StepDef.verify_the_total_price(StepDef.java:763)] - Exact Total price:2000
-2023-04-24 10:50:17.976 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 11:32:15.299 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:102)] -  Browser Setup executed
-2023-04-24 11:32:15.348 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:155)] - Chrome browser Launched
-2023-04-24 11:32:28.091 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:161)] - url opened
-2023-04-24 11:32:28.778 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:185)] - Homepage page is visible successfully
-2023-04-24 11:32:55.666 INFO [main] [stepdefinations.StepDef.user_is_landed_to_product_detail_page(StepDef.java:588)] - User is landed to product detail page successfully
-2023-04-24 11:33:00.026 INFO [main] [stepdefinations.StepDef.verify_that_product_is_displayed_in_cart_page_with_exact_quantity(StepDef.java:770)] - Product is displayed in Cart page with Quantity:4
-2023-04-24 11:33:00.143 INFO [main] [stepdefinations.StepDef.verify_the_total_price(StepDef.java:783)] - Exact Total price:2000
-2023-04-24 11:33:00.421 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 14:27:32.554 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 14:27:32.634 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 14:28:02.663 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 14:28:03.139 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 14:29:33.587 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 14:29:33.630 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 14:29:42.878 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 14:29:43.563 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 14:32:30.202 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 14:32:30.249 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 14:32:37.778 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 14:32:38.293 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 14:32:51.751 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 14:32:54.772 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:213)] - New user signup is visible
-2023-04-24 14:32:56.562 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:239)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-24 14:33:02.265 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:298)] - Account created is visible
-2023-04-24 14:33:10.482 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 14:33:17.036 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:835)] - Address Details are Displayed
-2023-04-24 14:33:18.570 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:855)] - payment page is Displayed
-2023-04-24 14:33:22.985 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:882)] - Congratulations! Your order has been confirmed
-2023-04-24 14:33:24.745 INFO [main] [stepdefinations.StepDef.verify_that_account_deleted_is_visible(StepDef.java:338)] - ACCOUNT DELETED! is visible
-2023-04-24 14:33:42.913 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 15:48:20.660 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 15:48:20.708 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 15:48:30.007 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 15:48:30.624 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 15:48:32.129 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:213)] - New user signup is visible
-2023-04-24 15:48:34.044 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:239)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-24 15:48:39.509 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:298)] - Account created is visible
-2023-04-24 15:48:46.086 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 15:48:57.525 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 15:49:00.985 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:835)] - Address Details are Displayed
-2023-04-24 15:49:02.620 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:855)] - payment page is Displayed
-2023-04-24 15:49:07.093 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:882)] - Congratulations! Your order has been confirmed
-2023-04-24 15:49:08.756 INFO [main] [stepdefinations.StepDef.verify_that_account_deleted_is_visible(StepDef.java:338)] - ACCOUNT DELETED! is visible
-2023-04-24 15:49:33.627 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 16:09:14.335 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:09:14.383 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:09:44.874 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:09:45.419 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:09:47.032 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:355)] - Login to your account is visible
-2023-04-24 16:10:01.217 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 16:10:48.088 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:10:48.127 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:11:00.271 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:11:00.985 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:11:02.435 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:355)] - Login to your account is visible
-2023-04-24 16:11:16.980 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 16:11:36.431 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:12:41.200 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:12:41.243 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:12:48.646 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:12:49.468 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:12:50.964 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:355)] - Login to your account is visible
-2023-04-24 16:12:59.163 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 16:13:08.681 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:15:12.019 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:15:12.116 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:15:43.365 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:15:43.954 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:15:45.758 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:355)] - Login to your account is visible
-2023-04-24 16:15:53.678 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:319)] - Logged in username is visible
-2023-04-24 16:16:06.169 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:16:09.479 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:835)] - Address Details are Displayed
-2023-04-24 16:16:11.365 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:855)] - payment page is Displayed
-2023-04-24 16:16:16.529 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:882)] - Congratulations! Your order has been confirmed
-2023-04-24 16:16:18.223 INFO [main] [stepdefinations.StepDef.verify_that_account_deleted_is_visible(StepDef.java:338)] - ACCOUNT DELETED! is visible
-2023-04-24 16:16:36.305 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-24 16:37:43.810 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:37:43.849 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:37:52.890 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:37:53.400 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:38:32.137 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:38:32.189 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:38:39.942 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:38:40.522 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:39:25.355 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:39:25.393 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:39:42.636 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:39:43.151 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:42:27.384 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:42:27.483 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:42:58.052 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:42:58.706 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:43:12.460 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:46:04.272 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:46:04.367 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:46:17.699 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:46:18.188 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:46:32.130 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:48:37.676 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:48:37.735 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:48:45.639 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:48:46.424 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:49:33.566 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:49:33.623 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:49:42.750 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:49:43.399 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:50:01.860 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:52:37.198 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:52:37.243 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:52:45.840 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:52:46.362 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:53:18.617 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:53:18.661 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:53:26.373 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:53:26.837 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:53:38.136 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 16:58:35.095 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:58:35.130 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:58:43.631 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:58:44.166 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:59:18.597 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 16:59:18.635 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 16:59:27.709 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 16:59:28.282 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 16:59:42.059 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:03:56.948 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:03:57.017 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:04:04.505 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:04:05.089 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:04:36.580 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:04:36.624 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:04:44.658 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:04:45.212 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:04:59.195 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:06:41.094 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:06:41.137 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:06:54.579 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:06:55.123 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:07:21.708 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:07:21.758 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:07:29.247 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:07:30.002 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:07:43.552 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:17:22.080 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:17:22.133 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:17:36.989 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:17:37.589 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:17:52.828 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:19:37.512 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:19:37.559 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:19:45.360 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:19:46.275 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:20:00.034 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:22:59.924 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:22:59.962 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:23:15.408 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:23:16.095 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:23:41.329 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:23:41.369 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:23:49.264 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:23:50.037 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:24:02.288 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:26:10.411 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:26:10.449 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:26:18.387 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:26:18.937 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:26:34.062 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:29:41.248 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:29:41.285 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:29:50.171 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:29:50.969 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:30:09.494 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:30:46.344 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:30:46.382 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:30:53.891 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:30:54.431 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:31:20.794 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:31:20.833 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:31:28.247 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:31:28.940 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:31:40.728 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:37:20.288 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:37:20.328 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:37:29.182 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:37:29.938 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:37:43.759 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:38:33.274 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:38:33.322 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:38:41.054 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:38:41.614 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:38:55.838 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:45:00.193 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:45:00.271 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:45:08.077 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:45:08.630 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:45:22.295 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:47:38.577 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:105)] -  Browser Setup executed
-2023-04-24 17:47:38.624 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:161)] - Chrome browser Launched
-2023-04-24 17:47:47.946 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:167)] - url opened
-2023-04-24 17:47:48.934 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:191)] - Homepage page is visible successfully
-2023-04-24 17:48:07.988 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:810)] - Cartpage is displayed
-2023-04-24 17:48:08.507 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-25 09:26:37.085 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 09:26:37.170 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 09:27:21.379 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 09:27:22.229 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 09:27:22.490 INFO [main] [stepdefinations.StepDef.verify_that_categories_are_visible_on_left_side_bar(StepDef.java:954)] - categories are visible on left side bar
+2023-04-25 09:27:36.145 INFO [main] [stepdefinations.StepDef.verify_that_category_page_is_displayed_and_confirm_text(StepDef.java:981)] - category page is displayed and confirm text is Visible
+2023-04-25 09:27:36.287 INFO [main] [stepdefinations.StepDef.verify_that_user_is_navigated_to_that_category_page(StepDef.java:997)] - user is navigated to that category page
+2023-04-25 09:44:59.046 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 09:44:59.091 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 09:45:06.374 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 09:45:07.299 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 09:45:13.486 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 09:53:03.253 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 09:53:03.304 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 09:53:37.421 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 09:53:38.089 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 09:55:11.796 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 09:55:11.848 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 09:55:52.885 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 09:55:53.761 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 09:56:03.965 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 09:59:10.198 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 09:59:10.239 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 09:59:45.119 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 09:59:45.822 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 09:59:58.275 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 10:00:47.147 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 10:00:47.189 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 10:01:10.645 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 10:01:11.305 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 10:01:21.783 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 10:08:53.737 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 10:08:53.807 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 10:09:01.169 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 10:09:01.732 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 10:09:08.318 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 10:10:38.071 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 10:10:38.109 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 10:10:45.364 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 10:10:45.986 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 10:10:52.404 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 10:15:35.644 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 10:15:35.712 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 10:15:48.415 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 10:15:49.446 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 10:16:08.126 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:15:33.016 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:15:33.061 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:16:34.055 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:16:34.903 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:16:44.844 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:19:40.097 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:19:40.143 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:21:17.682 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:21:32.348 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:21:32.388 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:22:30.413 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:22:31.317 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:22:50.989 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:25:15.818 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:25:15.928 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:26:14.593 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:26:15.368 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:26:29.117 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:28:49.049 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:28:49.084 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:29:53.693 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:29:54.458 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:30:03.705 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:34:10.493 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:34:10.544 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:35:20.506 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:35:21.179 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:35:33.821 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:39:40.115 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 11:39:40.178 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 11:40:19.940 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 11:40:20.699 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 11:40:37.900 INFO [main] [stepdefinations.StepDef.verify_that_brands_are_visible_on_left_side_bar(StepDef.java:1012)] - Brands are visible on left side bar
+2023-04-25 11:40:44.263 INFO [main] [stepdefinations.StepDef.verify_that_user_is_navigated_to_brand_page_and_brand_products_are_displayed(StepDef.java:1033)] - user is navigated to brand page and brand products are displayed
+2023-04-25 11:40:51.666 INFO [main] [stepdefinations.StepDef.verify_that_user_is_navigated_to_that_brand_page_and_can_see_products(StepDef.java:1052)] - user is navigated to brand page and brand products are displayed
+2023-04-25 11:40:52.013 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-25 16:07:57.995 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:07:58.040 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:08:23.579 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:08:24.077 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:08:29.459 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:08:32.268 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:13:14.759 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:13:14.798 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:13:21.521 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:13:22.228 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:13:27.514 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:13:31.578 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:21:47.200 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:21:47.296 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:22:15.330 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:22:16.242 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:22:21.599 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:22:25.705 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:22:38.741 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:24:00.383 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:24:00.420 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:24:07.107 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:24:07.903 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:24:13.421 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:24:17.637 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:24:30.733 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:33:26.030 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:33:26.258 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:33:54.101 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:33:54.843 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:34:00.146 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:34:04.073 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:34:17.047 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:38:53.525 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:38:53.566 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:39:05.163 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:39:05.828 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:39:10.601 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:39:14.629 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:39:27.739 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:43:19.150 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:43:19.199 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:43:26.974 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:43:27.494 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:43:32.398 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:43:36.596 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:43:49.638 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:48:41.224 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:48:41.265 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:48:48.132 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:48:48.868 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:48:54.342 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:48:58.013 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:49:11.035 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:51:59.041 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:51:59.088 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:52:06.077 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:52:06.882 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:52:11.952 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:52:15.733 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 16:52:28.602 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 16:59:36.739 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 16:59:36.779 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 16:59:44.602 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 16:59:45.135 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 16:59:50.116 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 16:59:54.652 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:00:07.596 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:03:53.579 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:03:53.636 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:04:06.033 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:04:06.573 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:04:12.678 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:04:18.108 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:04:31.210 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:06:02.521 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:06:02.561 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:06:09.435 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:06:10.107 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:06:16.606 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:06:21.894 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:06:34.913 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:15:45.549 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:15:45.583 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:15:53.001 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:15:53.523 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:15:59.615 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:16:03.822 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:16:16.947 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:18:28.022 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:18:28.074 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:18:35.201 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:18:35.639 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:18:41.002 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:18:45.452 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:18:58.432 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:21:43.592 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:21:43.634 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:21:50.458 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:21:51.292 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:21:58.861 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:22:04.224 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:22:17.064 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:25:04.450 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:25:04.491 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:25:12.474 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:25:12.912 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:25:18.440 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:25:22.622 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:25:35.653 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:27:13.562 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:27:13.603 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:27:20.461 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:27:21.150 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:27:23.623 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:27:27.051 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:27:40.039 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:42:01.200 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 17:42:01.354 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 17:42:32.354 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 17:42:33.213 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 17:42:44.408 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 17:42:50.537 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 17:43:03.479 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 17:43:27.291 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:354)] - Login to your account is visible
+2023-04-25 18:03:56.451 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 18:03:56.495 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 18:03:56.925 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 18:04:23.746 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 18:04:23.797 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 18:04:30.961 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 18:04:31.518 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 18:04:37.520 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 18:04:42.308 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 18:04:55.046 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 18:05:58.940 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
+2023-04-25 18:05:58.980 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
+2023-04-25 18:06:06.876 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
+2023-04-25 18:06:07.437 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
+2023-04-25 18:06:19.203 INFO [main] [stepdefinations.StepDef.verify_user_is_navigated_to_all_products_page_successfully(StepDef.java:573)] - user is navigated to ALL PRODUCTS page successfully
+2023-04-25 18:06:24.373 INFO [main] [stepdefinations.StepDef.verify_products_is_visible(StepDef.java:635)] - Searched products is visible
+2023-04-25 18:06:37.221 INFO [main] [stepdefinations.StepDef.verify_all_the_products_related_to_search_are_visible(StepDef.java:649)] - All the products related to search are visible
+2023-04-25 18:06:56.781 INFO [main] [stepdefinations.StepDef.verify_that_products_are_visible_in_cart(StepDef.java:1092)] - products are visible in cart
+2023-04-25 18:06:58.084 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:354)] - Login to your account is visible
+2023-04-25 18:07:04.792 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:318)] - Logged in username is visible
+2023-04-25 18:07:08.608 INFO [main] [stepdefinations.StepDef.verify_that_those_products_are_visible_in_cart_after_login_as_well(StepDef.java:1106)] - products are visible in cart after Login
+2023-04-25 18:07:08.950 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit

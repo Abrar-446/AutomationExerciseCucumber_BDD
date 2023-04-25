@@ -12,7 +12,7 @@ import io.cucumber.testng.CucumberOptions;
 		// To run multiple feature mention folder name, it will pick all the features
 		// files from folder
 		//features= ".//Features",
-		features = ".\\Features\\RemoveProducts_From_Cart_17.feature",	
+		features = ".\\Features\\Search_Products_and_Verify_Cart_After_Login_20.feature",	
 		//features = { ".//Features/LoginFeature.feature", ".//Features/AddVendor.feature" },
 		glue = "stepdefinations",
 		// plugin= {"pretty","html:target/CucumberReport/reports.html"},

@@ -14,7 +14,7 @@ public class Loginpage extends BasePage{
 	}
 	
 	//Login to your account elements
-	@FindBy(xpath="//h2[contains(text(),'Login to your account')]")
+	@FindBy(xpath="//h2[normalize-space()='Login to your account']")
 	private WebElement loginLabel;
 	
 	@FindBy(xpath="//input[@data-qa='login-email']")

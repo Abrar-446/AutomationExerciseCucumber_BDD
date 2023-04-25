@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.util.List;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,9 +59,42 @@ public class Homepage extends BasePage {
 	@FindBy(xpath="//div[@class='form-row']//div[@class='alert-success alert']")
 	private WebElement SuccessMsgTxt;
 	
+	//Left Side bar
+	@FindBy(xpath="(//div[@class='left-sidebar']//h2)[1]")
+	private WebElement CategoryLabelTxt;
+	
+	
+	@FindBy(xpath="(//div[@class='left-sidebar']//h2)[2]")
+	private WebElement BrandLabelTxt;
+	
+	//All Categories
+	
+	@FindBy(xpath="//div[@class='left-sidebar']//div[@class='panel-group category-products']//a[@data-toggle='collapse']")
+	private List<WebElement> AllCategoriesTxt;
+	
+
+	@FindBy(xpath="//a[@data-toggle='collapse']//ancestor::div[@class='panel-heading']/following-sibling::div//ul/li//a")
+	private List<WebElement> AllCategoryItems;
+	
+	
+	//Women Tops--ALL Lables
+	@FindBy(xpath="//div[@class='features_items']/h2")
+	private WebElement AllBrandLabelsTxt;
+	
+	//All Brands
+	@FindBy(xpath="//ul[@class='nav nav-pills nav-stacked']//a")
+	private List<WebElement> AllBrandsLinks;
+	
+	
+	@FindBy(xpath="//a[@href='/brand_products/Biba']")
+	private WebElement BibaLink;
+	
+	
+	@FindBy(xpath="//a[@href='/brand_products/Polo']")
+	private WebElement PoloLink;
+	
 	
 	//Action methods
-	
 	public void Login() {
 		//signupLink.click();
 		//using PageActions
@@ -123,5 +158,82 @@ public class Homepage extends BasePage {
 	public String SuccessMessage() {
 		return pageActions.GetText(SuccessMsgTxt);
 	}
+	
+	
+	public void ExpandAllcategories() {
+		
+		for(WebElement category:AllCategoriesTxt) {
+			category.click();
+		}
+	}
+	
+	public void CollapseAllcategories() {
+		
+		for(WebElement category:AllCategoriesTxt) {
+			category.click();
+		}
+	}
 
+	public void Selectcategory(String Cat) {
+
+		for (WebElement category : AllCategoriesTxt) {
+
+			if (category.getText().equals(Cat)) {
+				category.click();
+				break;
+
+			}
+		}
+	}
+	
+	public void SelectSubcategory(String subcat) {
+		
+		for(WebElement subcategory:AllCategoryItems) {
+			if (subcategory.getText().equals(subcat)) {
+				subcategory.click();
+				break;
+
+			}
+			
+		}
+		
+	}
+	
+	public String categoryLabel() {
+		return pageActions.GetText(CategoryLabelTxt);
+	}
+	
+	public String BrandLabel() {
+		return pageActions.GetText(BrandLabelTxt);
+	}
+	
+	public String AllBrandsLabel() {
+		return pageActions.GetText(AllBrandLabelsTxt);
+	}
+	
+	public void SelectBrand(String brand) {
+		
+		for(WebElement Brand:AllBrandsLinks) {
+			if(Brand.getText().equalsIgnoreCase(brand)) {
+				Brand.click();
+				
+			}
+		}
+	}
+	
+	public void ClickBIBA() {
+		pageActions.click(BibaLink);
+	}
+	
+	public void ClickPOLO() {
+		pageActions.click(PoloLink);
+	}
+	
+	
+	
+	
+	
 }
+	
+
+

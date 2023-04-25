@@ -218,6 +218,15 @@ public class PageActions extends BaseClass {
 		
 	}
 	
+	public void ScrollUp() {
+		
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,-250)");
+		
+		
+	}
+	
+	
 	public void JSClick(WebElement ele) {
 		JavascriptExecutor j = (JavascriptExecutor) driver;
 		j.executeScript("arguments[0].click();", ele);
