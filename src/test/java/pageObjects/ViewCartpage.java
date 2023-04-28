@@ -60,6 +60,9 @@ public class ViewCartpage extends BasePage {
 	@FindBy(xpath="//div[@id='cart_info']//tbody/tr")
 	private List<WebElement> CartProductsList;
 	
+	@FindBy(xpath="//table[@id='cart_info_table']//td[@class='cart_description']//h4")
+	private WebElement NoofProductsIncart;
+	
 	public List<String> CartProducts() {
 		List<String> al= new ArrayList<String>();
 		for(WebElement cp:CartProductsList) {
@@ -173,6 +176,11 @@ public class ViewCartpage extends BasePage {
 		 * 
 		 * String text=pageActions.JSGetText(); return text; }
 		 */
+		
+		
+		public boolean ProductDisplayed() {
+			return NoofProductsIncart.isDisplayed();
+		}
 		}
 		
 		

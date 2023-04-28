@@ -1,8 +1,12 @@
 package pageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
+import utilities.PageActions;
 
 public class PaymentDonepage extends BasePage {
 	
@@ -34,5 +38,16 @@ WebDriver driver;
 		pageActions.click(ContinueBtn);
 	}
 	
+	
+	/*
+	 * public boolean FileDownloaded(String FileName) { return
+	 * pageActions.isFileDownloaded1("C:\\Users\\abrar\\Downloads\\", FileName); }
+	 */
+	
+	
+	public boolean IsFileDownloadedTe() {
+		return PageActions.isFileDownloaded("invoice","txt",5000);
+	}
+	 
 	
 }

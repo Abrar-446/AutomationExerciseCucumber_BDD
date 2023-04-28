@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
+import java.time.Instant;
 import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
@@ -108,13 +109,20 @@ public class PageActions extends BaseClass {
 
 	// Method is to select the dropdown using Visible Text
 
-	public void selectValueFromDropDownBytext(WebElement element, String Text) {
-		try {
-			Select select = new Select(element);
-			select.selectByVisibleText(Text);
-		} catch (Exception e) {
-			System.out.println(e.getStackTrace());
-		}
+	public String selectValueFromDropDownBytext(WebElement element, String Text) {
+		Select select = new Select(element);
+		select.selectByVisibleText(Text);
+		 WebElement option = select.getFirstSelectedOption();
+	      String selectedoption = option.getText();
+	      return selectedoption;
+	}
+	
+	public String GetSelectedValueFromDropDown(WebElement ele,String Text) {
+		Select select = new Select(ele);
+		select.selectByVisibleText(Text);
+		 WebElement option = select.getFirstSelectedOption();
+	      String selectedoption = option.getText();
+	      return selectedoption;
 	}
 
 	// Method is to select the dropdown using index
@@ -210,12 +218,17 @@ public class PageActions extends BaseClass {
 	 * }
 	 */
 	
-	public void ScrollDown(WebElement ele) {
+	public void ScrollDownusingElement(WebElement ele) {
 		
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("arguments[0].scrollIntoView();", ele);
 		
 		
+	}
+	
+	public void ScrollDown() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollBy(0,250)", "");
 	}
 	
 	public void ScrollUp() {
@@ -241,4 +254,74 @@ public class PageActions extends BaseClass {
 		
 	}
 	
+	public boolean isFileDownloaded1(String downloadPath, String fileName) {
+		  File dir = new File(downloadPath);
+		  File[] dirContents = dir.listFiles();
+
+		  for (int i = 0; i < dirContents.length; i++) {
+		      if (dirContents[i].getName().equals(fileName)) {
+		          // File has been found, it can now be deleted:
+		          //dirContents[i].delete();
+		          return true;
+		      }
+		          }
+		      return false;
+		  }
+	
+	public static boolean isFileDownloaded(String expectedFileName, String fileExtension, int timeOut)
+	{
+	    // Download Folder Path
+	    //String folderName = System.getProperty("user.dir") + File.separator + "Downloads";
+		
+		String folderName = "C:\\Users\\abrar\\Downloads";
+	    // Array to Store List of Files in Directory
+	    File[] listOfFiles;
+			
+	    // Store File Name
+	    String fileName;   
+	        
+	    //  Consider file is not downloaded
+	    boolean fileDownloaded = false;      
+	        
+	    // capture time before looking for files in directory
+	    // last modified time of previous files will always less than start time
+	    // this is basically to ignore previous downloaded files
+	    long startTime = Instant.now().toEpochMilli();
+	        
+	    // Time to wait for download to finish
+	    long waitTime = startTime + timeOut;
+	       
+	    // while current time is less than wait time
+	    while (Instant.now().toEpochMilli() < waitTime) 
+	    {			
+	        // get all the files of the folder
+	        listOfFiles = new File(folderName).listFiles();
+	            
+	        // iterate through each file
+	        for (File file : listOfFiles) 
+	        {
+	            // get the name of the current file
+	            fileName = file.getName().toLowerCase();
+	        		
+	            // condition 1 - Last Modified Time > Start Time
+	            // condition 2 - till the time file is completely downloaded extension will be crdownload
+	            // Condition 3 - Current File name contains expected Text
+	            // Condition 4 - Current File name contains expected extension
+	            if (file.lastModified() > startTime && !fileName.contains("crdownload")&&fileName.contains(expectedFileName.toLowerCase())&&fileName.contains(fileExtension.toLowerCase())) 
+	           {
+	               // File Found
+	               fileDownloaded = true;
+	               break;
+	           }
+	        }
+	        // File Found Break While Loop
+	         if (fileDownloaded) 
+	             break;
+	    }
+	    // File Not Found
+	    return fileDownloaded;
+	}
+	
+	
+	 
 }

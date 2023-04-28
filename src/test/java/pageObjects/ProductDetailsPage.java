@@ -43,6 +43,25 @@ public class ProductDetailsPage extends BasePage {
 	private WebElement ProductQuantity;
 	
 	
+	@FindBy(xpath="//a[normalize-space()='Write Your Review']")
+	private WebElement WriteReviewLabelTxt;
+	
+	@FindBy(xpath="//input[@id='name']")
+	private WebElement YourNameTxtBox;
+	
+	@FindBy(xpath="//input[@id='email']")
+	private WebElement EmailAddTxtBox;
+	
+	@FindBy(xpath="//textarea[@id='review']")
+	private WebElement AddReviewTxtArea;
+	
+	@FindBy(xpath="//button[contains(text(),'Submit')]")
+	private WebElement SubmitBTN;
+	
+	//Thank you for your Review message
+	
+	@FindBy(xpath="//div[@class='alert-success alert']/span")
+	private WebElement ThankYouReviewMsg;
 	
 	
 	public String productName() {
@@ -95,6 +114,36 @@ public class ProductDetailsPage extends BasePage {
 	
 	public String ProductQuantity() {
 		return pageActions.GetText(ProductQuantity);
+	}
+	
+	
+	public String WriteYourReviewLabel() {
+		
+		return pageActions.GetText(WriteReviewLabelTxt);
+	}
+	
+	public void EnterYourName(String Name) {
+		pageActions.enterText(YourNameTxtBox, Name);
+		
+	}
+	
+	public void EnterEmailAddress(String EmailAdd) {
+		pageActions.enterText(EmailAddTxtBox, EmailAdd);
+		
+	}
+	
+	public void EnterAddReviewArea(String AreaText) {
+		pageActions.enterText(AddReviewTxtArea, AreaText);
+		
+	}
+	
+	public void ClickSubmitBTN() {
+		pageActions.click(SubmitBTN);
+	}
+	
+	public String GetThankYouForReviewMsg() {
+		
+		return pageActions.GetText(ThankYouReviewMsg);
 	}
 	
 	

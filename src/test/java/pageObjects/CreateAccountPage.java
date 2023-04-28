@@ -137,42 +137,94 @@ public class CreateAccountPage extends BasePage {
 	public void enterFirstName(String fname) {
 		pageActions.enterText(FirstNametxtbox, fname);
 	}
+	
+	public String GetFirstName() {
+		return pageActions.GetText(FirstNametxtbox);
+	}
+	
 
 	public void enterLastName(String lname) {
 		pageActions.enterText(LastNametxtbox, lname);
+	}
+	
+	public String GetLastName() {
+		return pageActions.GetText(LastNametxtbox);
+	}
+	
+	public String GetFN_LN() {
+		
+			return GetFirstName()+" "+GetLastName();
 	}
 
 	public void enterComany(String compname) {
 		pageActions.enterText(Companytxtbox, compname);
 	}
+	
+	public String GetCompany() {
+		return pageActions.GetText(Companytxtbox);
+	}
 
 	public void enterAddressOne(String add1) {
 		pageActions.enterText(Addresstxtbox1, add1);
 	}
+	
+	public String GetAddressOne() {
+		return pageActions.GetText(Addresstxtbox1);
+	}
+	
 
 	public void enterAddressTwo(String add2) {
 		pageActions.enterText(Addresstxtbox2, add2);
 	}
+	
+	public String GetAddressTwo() {
+		return pageActions.GetText(Addresstxtbox2);
+	}
 
-	public void selectCountry(String text) {
-		pageActions.selectValueFromDropDownBytext(CountryDrpDown, text);
+	public String selectCountry(String text) {
+		return pageActions.selectValueFromDropDownBytext(CountryDrpDown, text);
+	}
+	
+	public String GetSelectedCountryDROPDOWN(String text) {
+		return pageActions.GetSelectedValueFromDropDown(CountryDrpDown, text);
 	}
 
 	public void enterState(String state) {
 		pageActions.enterText(Statetxtbox, state);
 	}
 	
+	public String GetState() {
+		return pageActions.GetText(Statetxtbox);
+	}
+	
 	public void enterCity(String city) {
 		pageActions.enterText(Citytxtbox, city);
+	}
+	
+	public String GetCity() {
+		return pageActions.GetText(Citytxtbox);
 	}
 
 	
 	public void enterZipCode(String zip) {
 		pageActions.enterText(Zipcodetxtbox, zip);
 	}
+	
+	public String GetZipcode() {
+		return pageActions.GetText(Zipcodetxtbox);
+	}
+	
+	public String GetCityStateZipCode() {
+		
+		return GetCity()+" "+GetState()+" "+GetZipcode();
+	}
 
 	public void enterMobNum(String num) {
 		pageActions.enterText(MobileNumtxtbox, num);
+	}
+	
+	public String GetMobNum() {
+		return pageActions.GetText(MobileNumtxtbox);
 	}
 
 	public void createaccount() {

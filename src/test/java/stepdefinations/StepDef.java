@@ -35,7 +35,7 @@ import pageObjects.ProductDetailsPage;
 import pageObjects.Productspage;
 import pageObjects.TestCasespage;
 import pageObjects.ViewCartpage;
-
+import utilities.PageActions;
 import utilities.ReadConfig;
 
 public class StepDef extends BaseClass {
@@ -218,8 +218,8 @@ public class StepDef extends BaseClass {
 
 	@Then("Enter name and email address")
 	public void enter_name_and_email_address() {
-		loginpage.enterSignupName("Test1127");
-		loginpage.enterSignupEmail("Test1127@test.com");
+		loginpage.enterSignupName("Test1151");
+		loginpage.enterSignupEmail("Test1151@test.com");
 
 	}
 
@@ -267,17 +267,27 @@ public class StepDef extends BaseClass {
 
 	@Then("Fill details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number")
 	public void fill_details_first_name_last_name_company_address_address2_country_state_city_zipcode_mobile_number() {
-		CreateAccpage.enterFirstName("Test1127_FN");
-		CreateAccpage.enterLastName("Test1127_LN");
+		CreateAccpage.enterFirstName("Test1151_FN");
+		CreateAccpage.enterLastName("Test1151_LN");
 		CreateAccpage.enterComany("EVRY");
 		CreateAccpage.enterAddressOne("Bangalore");
 		CreateAccpage.enterAddressTwo("Karnataka");
 		CreateAccpage.selectCountry("Canada");
 		CreateAccpage.enterState("Karnataka");
 		CreateAccpage.enterCity("Bangalore");
-
 		CreateAccpage.enterZipCode("51289");
 		CreateAccpage.enterMobNum("9876543210");
+		
+		/*
+		 * String name=CreateAccpage.GetFN_LN(); String
+		 * company=CreateAccpage.GetCompany(); String
+		 * AddressOne=CreateAccpage.GetAddressOne(); String
+		 * AddressTwo=CreateAccpage.GetAddressTwo(); String
+		 * City_State_ZIP=CreateAccpage.GetCityStateZipCode(); String
+		 * Number=CreateAccpage.GetMobNum();
+		 */
+		
+		
 
 	}
 
@@ -313,7 +323,7 @@ public class StepDef extends BaseClass {
 
 		String loggedin = CreateAccpage.loggedInUser();
 
-		if (loggedin.equals("Test1128")) {
+		if (loggedin.equals("Test1151")) {
 			Assert.assertTrue(true);
 			log.info("Logged in username is visible");
 		} else {
@@ -843,8 +853,8 @@ public class StepDef extends BaseClass {
 	@Then("Verify Address Details and Review Your Order")
 	public void verify_address_details_and_review_your_order() {
 		List<String> st = Checkoutpage.YourDeliveryAddInfo();
-		// Mr. Test1127_FN Test1127_LN
-		if (st.contains("Mr. Automation Exercise")) {
+		// Mr. Test1151_FN Test1151_LN
+		if (st.contains("Mr. Test1151_FN Test1151_LN")) {
 			Assert.assertTrue(true);
 			log.info("Address Details are Displayed");
 		} else {
@@ -1107,12 +1117,198 @@ List<String>  products=Viewcartpage.CartProducts();
 	} else {
 		Assert.assertTrue(false);
 		log.warn("Sorry! products are NOT visible in cart after Login");
-	}   
+	}    
+}
+
+//**********TestCase-21: Add review on product Test Case *********  
+
+@Then("Verify {string} label information  is visible")
+public void verify_label_information_is_visible(String ExpTxt) {
+	String ActTxt=productDetailspage.WriteYourReviewLabel();
+	
+	if(ActTxt.equalsIgnoreCase(ExpTxt)) {
+    	Assert.assertTrue(true);
+		log.info("Write Your Review Information is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! Write Your Review Information is  NOT Visible");
+	} 
+    
+}
+@Then("Enter name, email and review")
+public void enter_name_email_and_review() {
+    
+	productDetailspage.EnterYourName("Test4467");
+	productDetailspage.EnterEmailAddress("Test1009@test.com");
+	productDetailspage.EnterAddReviewArea("This Product is Really Awesome.... I would Recommend everyone to buy this product.....Thank you very much AutomationExercise for this amazing product");
+    
+}
+@Then("Click Submit button in Product Details page")
+public void click_submit_button_in_product_details_page() {
+    
+	productDetailspage.ClickSubmitBTN();
+    
+}
+@Then("Verify success message with {string} is visible")
+public void verify_success_message_with_is_visible(String ExpMsg) {
+String ActMsg=productDetailspage.GetThankYouForReviewMsg();
+	
+	if(ActMsg.equalsIgnoreCase(ExpMsg)) {
+    	Assert.assertTrue(true);
+		log.info("Thank you for your review! message is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Thank you for your review! message is NOT Visible");
+	} 
+    
+}
+
+//**********TestCase-22: Add to cart from Recommended items Test Case *********  
+
+@Then("Scroll to bottom of page")
+public void scroll_to_bottom_of_page() {
+    homepage.scrollDOWN();;
+    
+}
+@Then("Verify {string} are visible")
+public void verify_are_visible(String ExpTxt) {
+    
+	String ActTxt=homepage.GetRecommendedItemsText();
+	
+	if(ActTxt.equalsIgnoreCase(ExpTxt)) {
+    	Assert.assertTrue(true);
+		log.info("Recommended Items Information is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! Recommended Items Information is  NOT Visible");
+	} 
+    
+}
+@Then("Click on Add To Cart on Recommended product")
+public void click_on_add_to_cart_on_recommended_product() {
+    
+	homepage.ClickFirstRecommendedITem();
+    
+}
+@Then("Click on View Cart button")
+public void click_on_view_cart_button() {
+    
+	productspage.ClickViewCart();
+    
+}
+@Then("Verify that product is displayed in cart page")
+public void verify_that_product_is_displayed_in_cart_page() {
+    
+	if(Viewcartpage.ProductDisplayed()==true) {
 		
-   
+		Assert.assertTrue(true);
+		log.info("product is displayed in cart page");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! product is NOT displayed in cart page");
+	} 
+}
+
+//**********TestCase-23: Verify address details in checkout page Test Case *********  
+
+@Then("Verify that the delivery address is same address filled at the time registration of account")
+public void verify_that_the_delivery_address_is_same_address_filled_at_the_time_registration_of_account() {
+	
+	List<String> YourdeliveryAdd=Checkoutpage.YourDeliveryAddInfo();
+	//Mr. Test1151_FN Test1151_LN
+	String name="Mr."+" "+"Test1151_FN"+" "+"Test1151_LN";
+	String company="EVRY";
+	String AddressOne="Bangalore";
+	String AddressTwo="Karnataka";
+	String City_State_ZIP="Bangalore"+" "+"Karnataka"+" "+"51289";
+	String country="Canada";
+	String Number="9876543210";
+	if(YourdeliveryAdd.get(0).equals(name)&&
+			YourdeliveryAdd.get(1).equals(company)&&
+			YourdeliveryAdd.get(2).equals(AddressOne)&&
+			YourdeliveryAdd.get(3).equals(AddressTwo)&&
+			YourdeliveryAdd.get(4).equals(City_State_ZIP)&&
+			YourdeliveryAdd.get(5).equals(country)&&
+			YourdeliveryAdd.get(6).equals(Number)) {
+		
+		Assert.assertTrue(true);
+		log.info("delivery address is same address filled at the time registration of account");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! Delivery address details are not same");
+	} 
+	}
+
+//**********TestCase-24: Download Invoice after purchase order Test Case ********* 
+
+@Then("Click Download Invoice button and verify invoice is downloaded successfully")
+public void click_download_invoice_button_and_verify_invoice_is_downloaded_successfully() {
+	
+	paymentDonePage.ClickDownloadInvoice();
+	
+	boolean result=paymentDonePage.IsFileDownloadedTe();
+	
+	
+		//Assert.assertTrue(PageActions.isFileDownloaded("invoice","txt",6000));
+
+		if (result == true) {
+			Assert.assertTrue(true);
+			log.info("Invoice is downloaded successfully and available in Downlaods folder");
+		} else {
+			Assert.assertTrue(false);
+			log.warn("Sorry! Invoice is NOT downloaded successfully");
+		}
+
 }
 
 
+//**********TestCase-25: Verify Scroll Up using 'Arrow' button and Scroll Down functionality Test Case ********* 
+
+
+@Then("Verify {string} text is visible")
+public void verify_text_is_visible(String ExpTxt) {
+    
+	String ActTxt=homepage.GetSubscribeLabel();
+	
+	if(ActTxt.equals(ExpTxt)) {
+		Assert.assertTrue(true);
+		log.info("Subscribe text is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! Subscribe text is NOT Visible");
+	}
 }
+@Then("Click on arrow at bottom right side to move upward")
+public void click_on_arrow_at_bottom_right_side_to_move_upward() {
+    
+	productspage.ClickArrow();
+    
+}
+@Then("Verify that page is scrolled up and {string} text is visible on screen")
+public void verify_that_page_is_scrolled_up_and_text_is_visible_on_screen(String ExpTxt) {
+String ActTxt=homepage.GetFullFledgeTextInfo();
+	
+	if(ActTxt.equals(ExpTxt)) {
+		Assert.assertTrue(true);
+		log.info("Full-Fledged practice website for Automation Engineers text is Visible");
+	} else {
+		Assert.assertTrue(false);
+		log.warn("Sorry! Full-Fledged practice website for Automation Engineers text is NOT Visible");
+	}
+    
+}
+
+//**********TestCase-26: Verify Scroll Up without 'Arrow' button and Scroll Down functionality Test Case ********* 
+
+@Then("Scroll up to the top")
+public void scroll_up_to_the_top() {
+	
+	productspage.ScrollUP();
+	
+}
+
+}
+
+
 
 

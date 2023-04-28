@@ -36,6 +36,7 @@ Feature: Place Order: Register while Checkout Feature
     Then Enter payment details: Name on Card, Card Number, CVC, Expiration date
     Then Click Pay and Confirm Order button
     Then Verify success message 'Congratulations! Your order has been confirmed!'
+    #Then Click Download Invoice button and verify invoice is downloaded successfully
     Then Click Delete Account button
     Then Verify that ACCOUNT DELETED! is visible
     Then Click on continue button

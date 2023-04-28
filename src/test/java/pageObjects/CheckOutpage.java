@@ -53,6 +53,8 @@ public class CheckOutpage extends BasePage {
 	}
 	
 	
+	
+	
 	public void EnterTextArea(String msg) {
 		pageActions.enterText(TextAreaTxt, msg);
 	}

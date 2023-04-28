@@ -47,6 +47,12 @@ public class Homepage extends BasePage {
 	@FindBy(xpath="//button[@id='subscribe']")
 	private WebElement SubscribeBtn;
 	
+	@FindBy(xpath="//h2[normalize-space()='Subscription']")
+	private WebElement SubscribeLabelTxt;
+	
+	@FindBy(xpath="//div[@class='item active']//h2[contains(text(),'Full-Fledged practice website for Automation Engin')]")
+	private WebElement FullFledgeTextInfo;
+	
 	//div[@class='logo pull-left']//img
 	@FindBy(xpath="//div[@class='logo pull-left']//img")
 	private WebElement imageicon;
@@ -93,6 +99,11 @@ public class Homepage extends BasePage {
 	@FindBy(xpath="//a[@href='/brand_products/Polo']")
 	private WebElement PoloLink;
 	
+	@FindBy(xpath="//div[@class='recommended_items']/h2")
+	private WebElement RecommendedItemsLabelTxt;
+	
+	@FindBy(xpath="//div[@class='recommended_items']//div[@class='col-sm-4']//a[@class='btn btn-default add-to-cart']")
+	private List<WebElement> RecommendedITems;
 	
 	//Action methods
 	public void Login() {
@@ -148,7 +159,7 @@ public class Homepage extends BasePage {
 	}
 	
 	public void scroll() {
-		pageActions.ScrollDown(emailAddTxt);
+		pageActions.ScrollDownusingElement(emailAddTxt);
 	}
 	
 	public String Susbscription() {
@@ -230,6 +241,31 @@ public class Homepage extends BasePage {
 	}
 	
 	
+	public void scrollDOWN() {
+		pageActions.ScrollDown();
+	}
+	
+	public String GetRecommendedItemsText() {
+	
+		return pageActions.GetText(RecommendedItemsLabelTxt);
+	}
+	
+	
+	public void ClickFirstRecommendedITem() {
+		
+		for(int i=0;i<=RecommendedITems.size();i++) {
+			RecommendedITems.get(0).click();
+		}
+	}
+	
+	
+	public String GetSubscribeLabel() {
+		return pageActions.GetText(SubscribeLabelTxt);
+	}
+	
+	public String GetFullFledgeTextInfo() {
+		return pageActions.GetText(FullFledgeTextInfo);
+	}
 	
 	
 	
