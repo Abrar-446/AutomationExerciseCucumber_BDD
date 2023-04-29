@@ -11,14 +11,17 @@ import org.apache.logging.log4j.LogManager;
 
 import org.mortbay.log.Log;
 import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -323,7 +326,7 @@ public class StepDef extends BaseClass {
 
 		String loggedin = CreateAccpage.loggedInUser();
 
-		if (loggedin.equals("Test1151")) {
+		if (loggedin.equals("Test1130")) {
 			Assert.assertTrue(true);
 			log.info("Logged in username is visible");
 		} else {
@@ -1306,6 +1309,42 @@ public void scroll_up_to_the_top() {
 	productspage.ScrollUP();
 	
 }
+
+//Testcase-27: Data Driven testing for Login 
+
+
+@Then("user enters email as {string} and Password as {string}")
+public void user_enters_email_as_and_password_as(String emailadd, String password) {
+	
+	loginpage.enterLoginEmail(emailadd);
+	loginpage.enterLoginPassword(password);
+	
+}
+
+//Simple login with Data table with single parameters 
+@When("Enter correct emailaddress and password with datatable")
+public void Enter_correct_emailaddress_and_password_with_datatable(DataTable credentials){
+	List<List<String>> data=credentials.cells();
+	driver.findElement(By.xpath("//input[@data-qa='login-email']")).sendKeys(data.get(0).get(0));
+	driver.findElement(By.xpath("//input[@data-qa='login-password']")).sendKeys(data.get(0).get(1));		
+}
+
+
+//  # Simple login with Data table with Multiple parameters-Header
+@When("Enter correct emailaddress and password with Multiple data using Datatable Header")
+public void Enter_correct_emailaddress_and_password_with_Multiple_data_using_Datatable_Header(DataTable credentials){
+	List<Map<String, String>> data=credentials.asMaps(String.class,String.class);
+	WebElement email=driver.findElement(By.xpath("//input[@data-qa='login-email']"));
+	email.clear();
+	email.sendKeys(data.get(0).get("emailaddress"));
+	WebElement password=driver.findElement(By.xpath("//input[@data-qa='login-password']"));
+	password.clear();
+	password.sendKeys(data.get(0).get("password"));
+	
+	
+	
+}
+
 
 }
 

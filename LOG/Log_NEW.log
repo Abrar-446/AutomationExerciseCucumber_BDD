@@ -1,238 +1,45 @@
-2023-04-28 15:25:41.317 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:25:41.374 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:26:41.013 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:26:41.505 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:26:42.926 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:26:44.668 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 15:26:49.599 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:296)] - Account created is visible
-2023-04-28 15:29:09.856 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:29:09.951 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:30:01.778 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:30:02.344 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:30:03.911 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:30:05.763 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 15:30:11.202 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:296)] - Account created is visible
-2023-04-28 15:30:57.201 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:317)] - Logged in username is visible
-2023-04-28 15:31:46.172 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:822)] - Cartpage is displayed
-2023-04-28 15:50:50.744 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:50:50.789 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:51:26.191 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:51:26.793 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:51:28.337 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:51:30.204 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 15:51:36.336 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 15:51:43.783 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 15:52:45.944 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:52:45.995 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:52:52.389 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:52:52.966 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:52:54.004 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:53:32.414 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:53:32.466 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:54:49.519 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:54:50.142 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:55:32.146 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:55:32.188 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:55:39.098 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:55:39.703 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:55:40.858 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:55:41.838 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 15:55:46.548 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 15:55:54.353 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 15:57:03.477 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:57:03.522 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 15:57:23.581 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 15:57:24.188 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 15:57:24.984 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 15:57:26.610 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 15:57:33.056 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 15:57:38.054 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 15:59:57.357 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 15:59:57.403 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:00:03.696 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:00:04.484 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:00:06.090 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 16:00:07.548 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 16:00:13.884 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 16:00:22.145 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 16:00:40.075 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 16:03:40.889 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 16:03:40.940 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:03:47.692 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:03:48.280 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:03:49.510 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 16:03:50.458 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 16:03:54.924 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 16:03:57.965 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 16:04:05.715 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 16:04:08.037 INFO [main] [stepdefinations.StepDef.verify_that_the_delivery_address_is_same_address_filled_at_the_time_registration_of_account(StepDef.java:1235)] - delivery address is same address filled at the time registration of account
-2023-04-28 16:04:09.186 INFO [main] [stepdefinations.StepDef.verify_that_account_deleted_is_visible(StepDef.java:347)] - ACCOUNT DELETED! is visible
-2023-04-28 16:04:24.824 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-28 16:25:02.016 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 16:25:02.069 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:25:14.386 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:25:15.123 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:25:30.864 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 16:25:35.215 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 16:25:37.427 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 16:25:44.358 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 16:25:51.564 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 16:31:24.075 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 16:31:24.160 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:31:56.188 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:31:56.667 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:32:48.356 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 16:32:48.408 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:33:11.407 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:33:12.127 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:33:23.133 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 16:33:25.208 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 16:33:26.713 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 16:33:32.901 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 16:33:39.745 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 16:33:42.640 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 16:33:43.459 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 16:33:47.275 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 16:47:31.479 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 16:47:31.545 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 16:48:34.080 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 16:48:34.662 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 16:49:13.482 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 16:49:16.502 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 16:49:18.201 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 16:49:24.910 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 16:49:34.601 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 16:49:37.866 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 16:49:39.519 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 16:49:44.032 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:00:25.158 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:00:25.214 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:00:33.979 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:00:34.536 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:00:50.001 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 17:00:53.634 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 17:00:55.457 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 17:01:02.156 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 17:01:13.600 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 17:01:21.592 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 17:01:23.367 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 17:01:28.189 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:05:11.680 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:05:11.725 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:05:18.722 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:05:19.304 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:05:45.541 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:05:45.596 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:05:52.281 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:05:52.778 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:06:02.123 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 17:06:04.803 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 17:06:06.495 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 17:06:12.603 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 17:06:17.493 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 17:06:21.057 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 17:06:22.422 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 17:06:26.176 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:14:08.669 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:14:08.721 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:14:21.014 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:14:21.628 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:14:39.931 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 17:14:42.435 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 17:14:43.919 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 17:14:49.909 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 17:14:55.651 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 17:15:00.910 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 17:15:02.611 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 17:15:06.776 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:36:27.735 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:36:27.792 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:36:47.048 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:36:47.468 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:36:59.545 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 17:37:00.883 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 17:37:01.842 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 17:37:07.580 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 17:37:15.836 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 17:37:18.546 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 17:37:19.346 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 17:37:22.959 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:40:30.225 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:40:30.273 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:40:42.680 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:40:43.159 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 17:40:57.006 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 17:40:59.588 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 17:41:01.084 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 17:41:07.174 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 17:41:12.378 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 17:41:14.980 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 17:41:15.762 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 17:41:18.786 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 17:43:51.335 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 17:43:51.391 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 17:44:10.780 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 17:44:11.426 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:11:49.800 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:11:49.862 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:11:56.317 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:11:57.542 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:12:11.355 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 18:12:12.705 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 18:12:13.628 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 18:12:18.540 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 18:12:24.578 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 18:12:26.845 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 18:12:27.571 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 18:12:30.124 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 18:17:07.642 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:17:07.731 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:17:23.593 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:17:24.141 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:17:37.132 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 18:17:39.182 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 18:17:40.554 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 18:17:45.642 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 18:17:50.264 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 18:17:52.384 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 18:17:53.160 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 18:17:55.763 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 18:21:10.258 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:21:10.318 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:21:34.125 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:21:34.729 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:21:44.586 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 18:21:46.624 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 18:21:48.009 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 18:21:52.847 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 18:21:58.520 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 18:22:01.062 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 18:22:02.049 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 18:22:05.428 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 18:28:00.538 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:28:00.584 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:28:12.901 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:28:13.410 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:28:19.705 INFO [main] [stepdefinations.StepDef.verify_that_cartpage_is_displayed(StepDef.java:833)] - Cartpage is displayed
-2023-04-28 18:28:20.826 INFO [main] [stepdefinations.StepDef.verify_new_user_signup_is_visible(StepDef.java:212)] - New user signup is visible
-2023-04-28 18:28:21.751 INFO [main] [stepdefinations.StepDef.verify_that_enter_account_information_is_visible(StepDef.java:238)] - ENTER ACCOUNT INFORMATION is visible
-2023-04-28 18:28:26.678 INFO [main] [stepdefinations.StepDef.verify_that_account_created_is_visible(StepDef.java:307)] - Account created is visible
-2023-04-28 18:28:30.813 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:328)] - Logged in username is visible
-2023-04-28 18:28:32.902 INFO [main] [stepdefinations.StepDef.verify_address_details_and_review_your_order(StepDef.java:859)] - Address Details are Displayed
-2023-04-28 18:28:33.689 INFO [main] [stepdefinations.StepDef.verify_payment_page_is_displayed(StepDef.java:880)] - payment page is Displayed
-2023-04-28 18:28:36.289 INFO [main] [stepdefinations.StepDef.verify_success_message(StepDef.java:909)] - Congratulations! Your order has been confirmed
-2023-04-28 18:28:37.039 INFO [main] [stepdefinations.StepDef.click_download_invoice_button_and_verify_invoice_is_downloaded_successfully(StepDef.java:1255)] - Invoice is downloaded successfully and available in Downlaods folder
-2023-04-28 18:28:37.744 INFO [main] [stepdefinations.StepDef.verify_that_account_deleted_is_visible(StepDef.java:347)] - ACCOUNT DELETED! is visible
-2023-04-28 18:28:51.945 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
-2023-04-28 18:49:36.994 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:49:37.097 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:49:51.978 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:49:52.464 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:49:52.784 INFO [main] [stepdefinations.StepDef.verify_text_is_visible(StepDef.java:1275)] - Subscribe text is Visible
-2023-04-28 18:49:53.157 INFO [main] [stepdefinations.StepDef.verify_that_page_is_scrolled_up_and_text_is_visible_on_screen(StepDef.java:1293)] - Full-Fledged practice website for Automation Engineers text is Visible
-2023-04-28 18:57:18.747 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:104)] -  Browser Setup executed
-2023-04-28 18:57:18.815 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:160)] - Chrome browser Launched
-2023-04-28 18:57:29.016 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:166)] - url opened
-2023-04-28 18:57:29.604 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:190)] - Homepage page is visible successfully
-2023-04-28 18:57:30.119 INFO [main] [stepdefinations.StepDef.verify_text_is_visible(StepDef.java:1275)] - Subscribe text is Visible
-2023-04-28 18:57:30.180 INFO [main] [stepdefinations.StepDef.verify_that_page_is_scrolled_up_and_text_is_visible_on_screen(StepDef.java:1293)] - Full-Fledged practice website for Automation Engineers text is Visible
+2023-04-29 09:09:51.087 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:106)] -  Browser Setup executed
+2023-04-29 09:09:51.174 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:162)] - Chrome browser Launched
+2023-04-29 09:09:57.726 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:168)] - url opened
+2023-04-29 09:09:58.449 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:192)] - Homepage page is visible successfully
+2023-04-29 09:09:59.643 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:366)] - Login to your account is visible
+2023-04-29 09:21:33.499 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:106)] -  Browser Setup executed
+2023-04-29 09:21:33.546 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:162)] - Chrome browser Launched
+2023-04-29 09:21:50.569 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:168)] - url opened
+2023-04-29 09:21:51.089 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:192)] - Homepage page is visible successfully
+2023-04-29 09:21:51.930 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:366)] - Login to your account is visible
+2023-04-29 09:21:58.355 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:330)] - Logged in username is visible
+2023-04-29 09:21:58.647 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-29 09:26:31.170 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:106)] -  Browser Setup executed
+2023-04-29 09:26:31.215 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:162)] - Chrome browser Launched
+2023-04-29 09:26:37.997 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:168)] - url opened
+2023-04-29 09:26:38.580 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:192)] - Homepage page is visible successfully
+2023-04-29 09:26:39.871 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:366)] - Login to your account is visible
+2023-04-29 09:29:57.228 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:107)] -  Browser Setup executed
+2023-04-29 09:29:57.268 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:163)] - Chrome browser Launched
+2023-04-29 09:30:05.062 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:169)] - url opened
+2023-04-29 09:30:05.804 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:193)] - Homepage page is visible successfully
+2023-04-29 09:30:07.152 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:367)] - Login to your account is visible
+2023-04-29 09:30:16.307 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:331)] - Logged in username is visible
+2023-04-29 09:30:16.553 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-29 09:31:24.880 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:107)] -  Browser Setup executed
+2023-04-29 09:31:24.924 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:163)] - Chrome browser Launched
+2023-04-29 09:33:05.039 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:169)] - url opened
+2023-04-29 09:33:05.630 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:193)] - Homepage page is visible successfully
+2023-04-29 09:33:07.087 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:367)] - Login to your account is visible
+2023-04-29 09:34:20.164 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:331)] - Logged in username is visible
+2023-04-29 09:34:20.452 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-29 09:36:34.022 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:107)] -  Browser Setup executed
+2023-04-29 09:36:34.071 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:163)] - Chrome browser Launched
+2023-04-29 09:36:46.811 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:169)] - url opened
+2023-04-29 09:36:47.543 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:193)] - Homepage page is visible successfully
+2023-04-29 09:36:48.485 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:367)] - Login to your account is visible
+2023-04-29 09:36:53.744 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:331)] - Logged in username is visible
+2023-04-29 09:36:54.086 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
+2023-04-29 09:45:15.420 INFO [main] [stepdefinations.StepDef.setup1(StepDef.java:107)] -  Browser Setup executed
+2023-04-29 09:45:15.460 INFO [main] [stepdefinations.StepDef.user_launch_chrome_browser(StepDef.java:163)] - Chrome browser Launched
+2023-04-29 09:45:27.999 INFO [main] [stepdefinations.StepDef.user_opens_url(StepDef.java:169)] - url opened
+2023-04-29 09:45:28.564 INFO [main] [stepdefinations.StepDef.verify_that_home_page_is_visible_successfully(StepDef.java:193)] - Homepage page is visible successfully
+2023-04-29 09:45:30.676 INFO [main] [stepdefinations.StepDef.verify_login_to_your_account_is_visible(StepDef.java:367)] - Login to your account is visible
+2023-04-29 09:46:06.911 INFO [main] [stepdefinations.StepDef.verify_that_logged_in_as_username_is_visible(StepDef.java:331)] - Logged in username is visible
+2023-04-29 09:46:07.167 INFO [main] [stepdefinations.CloseStepDef.close_browser(CloseStepDef.java:11)] - Browser Quit
