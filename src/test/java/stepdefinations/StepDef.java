@@ -1340,9 +1340,7 @@ public void Enter_correct_emailaddress_and_password_with_Multiple_data_using_Dat
 	WebElement password=driver.findElement(By.xpath("//input[@data-qa='login-password']"));
 	password.clear();
 	password.sendKeys(data.get(0).get("password"));
-	
-	
-	
+
 }
 
 
